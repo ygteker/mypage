@@ -1,4 +1,5 @@
 body {
+  background-image: url('./images/bg.png');
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.greeting {
+  margin-left: 10%;
+  margin-top: 20%;
+  color: white;
+}
+
+.summary {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 65%;
+  margin-top: 5%;
+  font-size: larger;
+  text-align: center;
+  color: white;
+}
+
+.bg {
+  background-position: top;
 }
