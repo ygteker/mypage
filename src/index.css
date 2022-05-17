@@ -12,23 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.greeting {
-  margin-left: 10%;
-  margin-top: 20%;
-  color: white;
-}
-
-.summary {
-  position: relative;
-  margin-left: 5%;
-  margin-right: 65%;
-  margin-top: 5%;
-  font-size: larger;
-  text-align: center;
-  color: white;
-}
-
-.bg {
-  background-position: top;
-}
