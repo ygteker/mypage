@@ -5,7 +5,7 @@ interface HomeProps {}
 
 const Home: FC<HomeProps> = () => {
   return (
-    <>
+    <div className="min-h-screen bg-slate-400">
       <img src={pp} alt="pp" />
       <h1>Yagiz Gunes Teker</h1>
       <p>
@@ -16,7 +16,7 @@ const Home: FC<HomeProps> = () => {
         procedures.
       </p>
       <h2>Projects</h2>
-    </>
+    </div>
   );
 };
 

@@ -12,7 +12,7 @@ const Contact: FC<ContactProps> = () => {
   };
 
   return (
-    <>
+    <div className="min-h-screen bg-slate-400">
       <div className="contact-website">
         <header>
           <h1>Contact Information</h1>
@@ -43,7 +43,7 @@ const Contact: FC<ContactProps> = () => {
           </p>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
