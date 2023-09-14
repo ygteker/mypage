@@ -9,7 +9,7 @@ import Nav from './components/Nav';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="pr-96 pl-96">
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />

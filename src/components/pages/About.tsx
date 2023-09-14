@@ -4,14 +4,14 @@ interface AboutProps {}
 
 const About: FC<AboutProps> = () => {
   return (
-    <div className="min-h-screen bg-slate-400">
+    <div className="h-screen p-12">
       <div className="resume">
         <section className="education">
-          <h2>Education</h2>
+          <h2 className="text-2xl">Education</h2>
           <div className="education-item">
             <h3>Degree in Computer Science and Statistics</h3>
             <p>University of Munich</p>
-            <p>Graduated: Feb 2021</p>
+            <p className="date">Graduated: Feb 2021</p>
             <p>
               Bachelor's Thesis: Bachelor Thesis: Pre-clustering for statistical
               relation data analysis using the example of the coronavirus
@@ -25,7 +25,7 @@ const About: FC<AboutProps> = () => {
           <div className="experience-item">
             <h3>Fullstack Web Developer</h3>
             <p>VOQUZ Digital Experts GmbH</p>
-            <p>September 2022 - September 2023</p>
+            <p className="date">September 2022 - September 2023</p>
             <p>
               In this position, I was responsible for developing management
               software dedicated to serving the public sector. To achieve this,
@@ -41,7 +41,7 @@ const About: FC<AboutProps> = () => {
           <div className="experience-item">
             <h3>Java Developer</h3>
             <p>iic-solutions GmbH</p>
-            <p>March 2022 - September 2022</p>
+            <p className="date">March 2022 - September 2022</p>
             <p>
               I was tasked with developing APIs to enhance their services. Using
               Java EE with Java 8, Hibernate, MapStruct, and SQL, I built robust
@@ -55,7 +55,7 @@ const About: FC<AboutProps> = () => {
           <div className="experience-item">
             <h3>IT Consultant</h3>
             <p>amasol AG</p>
-            <p>March 2021 - March 2022</p>
+            <p className="date">March 2021 - March 2022</p>
             <p>
               During my consulting engagement, I specialized in monitoring
               software, providing expert guidance to clients. I employed a range
@@ -72,7 +72,7 @@ const About: FC<AboutProps> = () => {
           <div className="experience-item">
             <h3>Android Developer</h3>
             <p>adabay GmbH</p>
-            <p>March 2021 - March 2022</p>
+            <p className="date">March 2021 - March 2022</p>
             <p>
               In my role, I developed an Android app in Java tailored for an
               insurance company, ensuring a user-friendly experience and meeting
