@@ -12,16 +12,12 @@ const Contact: FC<ContactProps> = () => {
   };
 
   return (
-    <>
-      <div className="contact-website">
-        <header>
-          <h1>Contact Information</h1>
-        </header>
+    <div className="h-screen flex">
+      <div className="contact-website space-y-4 m-auto">
         <h2>{contact.name}</h2>
         <p>
           Email: <a href={`mailto:${contact.email}`}>{contact.email}</a>
         </p>
-        <p>Phone: {contact.phone}</p>
         {contact.linkedin && (
           <p>
             LinkedIn:{' '}
@@ -43,7 +39,7 @@ const Contact: FC<ContactProps> = () => {
           </p>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
