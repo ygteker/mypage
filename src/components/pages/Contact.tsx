@@ -20,21 +20,19 @@ const Contact: FC<ContactProps> = () => {
         </p>
         {contact.linkedin && (
           <p>
-            LinkedIn:{' '}
             <a
               href={contact.linkedin}
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn Profile
+              LinkedIn
             </a>
           </p>
         )}
         {contact.github && (
           <p>
-            GitHub:{' '}
             <a href={contact.github} target="_blank" rel="noopener noreferrer">
-              GitHub Profile
+              GitHub
             </a>
           </p>
         )}
