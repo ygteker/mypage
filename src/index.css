@@ -22,4 +22,7 @@
   a {
     @apply hover:underline;
   }
+  div {
+    @apply mb-12 mt-12;
+  }
 }
