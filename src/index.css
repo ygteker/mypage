@@ -3,26 +3,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   h2 {
     @apply text-2xl font-bold mb-2;
   }
+
   p {
     @apply text-xl antialiased;
   }
+
   section {
     @apply mb-12;
   }
+
   .experience-item {
     @apply mb-12 space-y-2;
   }
+
   .date {
     @apply text-sm;
   }
+
   a {
     @apply hover:underline;
-  }
-  div {
-    @apply mb-12 mt-12;
   }
 }

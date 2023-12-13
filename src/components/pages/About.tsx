@@ -4,8 +4,8 @@ interface AboutProps {}
 
 const About: FC<AboutProps> = () => {
   return (
-    <div className="h-screen p-12">
-      <div className="resume">
+    <div>
+      <div className="resume p-12">
         <section className="education">
           <h2 className="text-2xl">Education</h2>
           <div className="education-item">
