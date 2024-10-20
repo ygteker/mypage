@@ -1,8 +1,10 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
 
 interface AboutProps {}
 
 const About: FC<AboutProps> = () => {
+  const [myState, setMyState] = useState('test')
+
   return (
     <div>
       <div className="resume p-12">
